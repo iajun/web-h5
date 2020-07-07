@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "moduleResolution": "node",
+    "strict": true,
+    "sourceMap": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "lib": ["es6", "dom", "ES2015.Iterable"],
+    "module": "esnext",
+    "noEmitOnError": true,
+    "removeComments": true,
+    "alwaysStrict": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["./*"],
+      "@css/*": ["asset/style/*"],
+      "@comp/*": ["component/*"],
+      "@api/*": ["service/*"],
+      "@store/*": ["store/*"],
+      "@util/*": ["util/*"],
+      "@page/*": ["page/*"],
+      "@router/*": ["router/*"]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "extends": "../tsconfig.base",
+  "compilerOptions": {
+    "outDir": "../dist",
+    "target": "es5",
+    "lib": ["es6", "dom", "ES2015.Iterable"],
+    "module": "esnext",
+    "moduleResolution": "node"
+  }
+}

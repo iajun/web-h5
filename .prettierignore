@@ -1,0 +1,7 @@
+**/*.md
+**/*.svg
+**/*.ejs
+**/*.html
+package.json
+src/external-error-messages.js
+src/external-errors.js

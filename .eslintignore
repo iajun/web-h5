@@ -1,0 +1,7 @@
+/functions/mock
+/node_modules
+/dist
+/config
+/scripts
+/src/errorCode.js
+/bin
